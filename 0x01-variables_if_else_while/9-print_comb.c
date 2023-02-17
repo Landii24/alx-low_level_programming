@@ -1,18 +1,20 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
- * main - prints all combination of single digits
- * Return: Always 0
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int a;
+	int d;
 
-	for (a = 0; a < 10; a++)
+	for (d = '0'; d <= '9'; d++)
 	{
-		putchar(a + '0');
-		if (a < 9)
+		putchar(d);
+		if (d != '9')
 		{
 			putchar(',');
 			putchar(' ');
