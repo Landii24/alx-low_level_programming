@@ -3,17 +3,18 @@
 /**
  * main - Entry point
  *
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
-
-int main(void)
+intmain(void)
 {
-	int num;
+	int c;
 
-	for (num = 0; num < 10; num++)
-		putchar((num % 10) + '0');
-
-	putchar('\n')
-
+	c = 0;
+	while
+		(c < 10) {
+			putchar(c + '0');
+			c++;
+		}
+	putchar('\n');
 	return (0);
 }
