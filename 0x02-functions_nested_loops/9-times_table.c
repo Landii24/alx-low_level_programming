@@ -22,7 +22,7 @@ while (a <= 9)
 		{
 			_putchar('0' + rep);
 		}
-		else if (re < 10)
+		else if (rep < 10)
 		{
 			_putchar(' ');
 			_putchar('0' + rep);
@@ -41,7 +41,6 @@ while (a <= 9)
 		b++;
 	}
 	_putchar('\n');
-	a++
+	a++;
 }
 }
-
