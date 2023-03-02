@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+int main(void) *(p + 5) = 98;
 {
         int n;
         int a[5];
