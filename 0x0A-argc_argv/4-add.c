@@ -7,7 +7,7 @@
 	 *
 	 * Return: Always 0 (Success)
 	 */
-	int check_num(char *str)
+int check_num(char *str)
 	{
 		/*Declaring variables*/
 		unsigned int count;
@@ -39,7 +39,7 @@
 	 */
 
 
-	int main(int argc, char *argv[])
+int main(int argc, char *argv[])
 
 
 	{
