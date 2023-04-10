@@ -10,7 +10,11 @@ unsigned long int mask = 1UL << 63;
 
 while (mask > 0)
 {
-putchar((n & mask) ? '1' : '0');
+if (n & mask)
+putchar('1');
+else
+putchar('0');
+
 mask >>= 1;
 }
 }
